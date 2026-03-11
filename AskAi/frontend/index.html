@@ -1,0 +1,56 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Ask Anything AI</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    </head>
+
+    <body>
+
+    <div class="container">
+
+    <h1><i class="fa-solid fa-robot"></i> Ask Anything AI</h1>
+    <p class="subtitle">Powered by CodeForSuccess</p>
+
+    <textarea id="question"
+    placeholder="Ask me anything about technology, science, history, or any topic of interest..."></textarea>
+
+    <button class="ask-btn" onclick="askAI()">
+    <i class="fa-solid fa-paper-plane"></i> Ask AI
+    </button>
+
+    <div class="response-box">
+    <h3><i class="fa-solid fa-brain"></i> AI Response:</h3>
+    <p id="response">I'm ready to help with your questions!</p>
+    </div>
+
+    <div class="buttons">
+
+    <button onclick="clearText()">
+    <i class="fa-solid fa-trash"></i> Clear
+    </button>
+
+    <button onclick="copyText()">
+    <i class="fa-solid fa-copy"></i> Copy Response
+    </button>
+
+    <button onclick="sampleQuestion()">
+    <i class="fa-solid fa-lightbulb"></i> Sample Question
+    </button>
+
+    <button onclick="presentationMode()">
+    <i class="fa-solid fa-expand"></i> Presentation Mode
+    </button>
+
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
